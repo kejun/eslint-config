@@ -1,12 +1,12 @@
 ---
 extends: 
   - eslint:recommended
-  - plugin:react/recommended
   - ./rules/best-practices.yaml
   - ./rules/possible-errors.yaml
   - ./rules/style.yaml
   - ./rules/vars.yaml
   - ./rules/es6.yaml
+  - ./rules/react.yaml
 
 parser: babel-eslint
 
@@ -23,6 +23,7 @@ parserOptions:
   sourceType: module
   ecmaFeatures:
     jsx: true
+    experimentalDecorators: true
     experimentalObjectRestSpread: true
 
 plugins:

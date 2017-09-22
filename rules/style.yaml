@@ -5,9 +5,7 @@ rules:
     - 1
     - multiline: true
   array-bracket-spacing: 1
-  array-element-newline:
-    - 1
-    - multiline: true
+  array-element-newline: 0
   block-spacing: 1
   brace-style: 1
   camelcase:
@@ -102,6 +100,12 @@ rules:
         - Immutable.Map
         - Immutable.Set
         - Immutable.List
+        - Immutable.Record
+        - Map
+        - Set
+        - List
+        - Record
+      newIsCapExceptionPattern: ^\(.*\)
   newline-per-chained-call:
     - 1
     - ignoreChainWithDepth: 4
@@ -110,7 +114,34 @@ rules:
   no-continue: 2
   no-inline-comments: 0
   no-lonely-if: 1
-  no-mixed-operators: 1
+  no-mixed-operators:
+    - 1
+    - groups:
+        - - "+"
+          - "-"
+          - "*"
+          - "/"
+          - "%"
+          - "**"
+        - - "&"
+          - "|"
+          - "^"
+          - "~"
+          - ">>"
+          - ">>>"
+        - - "=="
+          - "!="
+          - "==="
+          - "!=="
+          - ">"
+          - ">="
+          - "<"
+          - "<="
+        - - "&&"
+          - "||"
+        - - in
+          - instanceof
+      allowSamePrecedence: false
   no-multi-assign: 2
   no-multiple-empty-lines:
     - 1

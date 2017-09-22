@@ -41,6 +41,10 @@ rules:
   no-implicit-globals: 1
   no-case-declarations: 1
   array-callback-return: 1
-  no-unused-expressions: 1
+  no-unused-expressions:
+    - 1
+    - allowShortCircuit: true
+      allowTernary: true
+      allowTaggedTemplates: true
   no-unmodified-loop-condition: 1
 ...

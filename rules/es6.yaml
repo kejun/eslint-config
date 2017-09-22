@@ -4,4 +4,67 @@ rules:
     - 1
     - as-needed
     - requireReturnForObjectLiteral: false
+  arrow-parens:
+    - 1
+    - as-needed
+  arrow-spacing:
+    - 1
+    - before: true
+      after: true
+  generator-star-spacing:
+    - 1
+    - before: false
+      after: true
+  no-confusing-arrow:
+    - 1
+    - allowParens: true
+  no-duplicate-imports:
+    - 1
+    - includeExports: true
+  no-useless-computed-key: 1
+  no-useless-constructor: 1
+  no-useless-rename:
+    - 1
+    - ignoreDestructuring: false
+      ignoreImport: false
+      ignoreExport: false
+  object-shorthand:
+    - 1
+    - always
+    - ignoreConstructors: false
+      avoidQuotes: true
+  prefer-arrow-callback:
+    - 1
+    - allowNamedFunctions: false
+      allowUnboundThis: true
+  prefer-const:
+    - 1
+    - destructuring: any
+      ignoreReadBeforeAssign: true
+  prefer-destructuring:
+    - 1
+    - VariableDeclarator:
+        array: false
+        object: true
+      AssignmentExpression:
+        array: true
+        object: true
+    - enforceForRenamedProperties: false
+  prefer-numeric-literals: 1
+  prefer-reflect: 0
+  prefer-rest-params: 1
+  prefer-spread: 1
+  prefer-template: 1
+  require-yield: 1
+  rest-spread-spacing:
+    - 1
+    - never
+  sort-imports: 0
+  symbol-description: 1
+  template-curly-spacing:
+    - 1
+    - always
+  yield-star-spacing:
+    - 1
+    - after
 ...

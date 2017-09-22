@@ -1,0 +1,10 @@
+---
+# https://github.com/yannickcr/eslint-plugin-react
+extends:
+  - plugin:react/recommended
+rules:
+  react/display-name: 0
+  react/no-string-refs: 0
+  react/no-find-dom-node: 0
+  react/no-danger-with-children: 0
+...
