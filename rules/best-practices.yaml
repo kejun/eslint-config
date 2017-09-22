@@ -1,0 +1,46 @@
+---
+rules:
+  radix: 1
+  curly: 1
+  eqeqeq: 1
+  dot-location:
+    - 1
+    - property
+  no-with: 1
+  no-void: 1
+  no-eval: 1
+  no-proto: 1
+  no-labels: 1
+  no-caller: 1
+  no-eq-null: 1
+  no-iterator: 1
+  dot-notation: 1
+  guard-for-in: 1
+  no-div-regex: 1
+  no-loop-func: 1
+  default-case: 1
+  no-sequences: 1
+  no-extra-bind: 1
+  no-lone-blocks: 1
+  no-extra-label: 1
+  no-else-return: 1
+  no-implied-eval: 1
+  no-invalid-this: 1
+  no-new-wrappers: 1
+  no-octal-escape: 1
+  no-self-compare: 1
+  no-return-await: 1
+  no-useless-call: 1
+  no-extend-native: 1
+  no-return-assign: 1
+  no-throw-literal: 1
+  block-scoped-var: 2
+  no-empty-function: 1
+  no-useless-concat: 1
+  no-useless-return: 1
+  no-implicit-globals: 1
+  no-case-declarations: 1
+  array-callback-return: 1
+  no-unused-expressions: 1
+  no-unmodified-loop-condition: 1
+...

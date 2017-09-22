@@ -1,0 +1,16 @@
+{
+  "name": "douban-style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eslintrc.yaml",
+  "repository": {
+    "type": "git",
+    "url": "https://github.intra.douban.com/kejun/eslint-config.git"
+  },
+  "author": "kejun",
+  "license": "ISC",
+  "devDependencies": {
+     "babel-eslint": "^8.0.0-alpha.17",
+     "eslint-plugin-react": "^7.3.0"
+  }
+}
