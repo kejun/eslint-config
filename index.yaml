@@ -2,8 +2,11 @@
 extends: 
   - eslint:recommended
   - plugin:react/recommended
-  - ./rules/style.yaml
   - ./rules/best-practices.yaml
+  - ./rules/possible-errors.yaml
+  - ./rules/style.yaml
+  - ./rules/vars.yaml
+  - ./rules/es6.yaml
 
 parser: babel-eslint
 
@@ -27,22 +30,5 @@ plugins:
 
 rules:
   no-dynamic-import: 0
-
-  # Possible Errors
-  no-extra-parens: 1
-  no-await-in-loop: 1
-  no-template-curly-in-string: 1
-
-  # Best Practices
-
-  # Variables
-  no-undefined: 1
-  no-unused-vars: 2
-
-  # ES 6
-  arrow-body-style:
-    - 1
-    - as-needed
-    - requireReturnForObjectLiteral: false
 
 ...

@@ -1,0 +1,5 @@
+---
+rules:
+  no-undefined: 1
+  no-unused-vars: 2
+...

@@ -1,0 +1,4 @@
+.DS_Store
+.vscode
+*.sw[op]
+node_modules

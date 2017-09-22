@@ -1,0 +1,9 @@
+---
+rules:
+  no-extra-parens:
+    - 1
+    - all
+    - conditionalAssign: false
+  no-await-in-loop: 1
+  no-template-curly-in-string: 1
+...

@@ -1,0 +1,7 @@
+---
+rules:
+  arrow-body-style:
+    - 1
+    - as-needed
+    - requireReturnForObjectLiteral: false
+...

@@ -1,8 +1,8 @@
 {
-  "name": "douban-style",
+  "name": "eslint-config-douban-style",
   "version": "1.0.0",
   "description": "",
-  "main": "eslintrc.yaml",
+  "main": "index.yaml",
   "repository": {
     "type": "git",
     "url": "https://github.intra.douban.com/kejun/eslint-config.git"
