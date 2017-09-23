@@ -1,6 +1,7 @@
 ---
 extends: 
   - eslint:recommended
+  - ./rules/globals.yaml
   - ./rules/best-practices.yaml
   - ./rules/possible-errors.yaml
   - ./rules/style.yaml
