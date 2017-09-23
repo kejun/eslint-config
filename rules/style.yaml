@@ -76,7 +76,7 @@ rules:
       ignoreTemplateLiterals: true
   max-lines:
     - 2
-    - max: 600
+    - max: 400
       skipBlankLines: true
       skipComments: true
   max-nested-callbacks:
