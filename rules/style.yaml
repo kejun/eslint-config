@@ -9,7 +9,7 @@ rules:
   block-spacing: 1
   brace-style: 1
   camelcase:
-    - 1
+    - 2
     - properties: never
   comma-dangle:
     - 1
