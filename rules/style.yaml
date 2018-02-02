@@ -58,7 +58,8 @@ rules:
       ignoredNodes:
         - "JSXElement *"
 
-  key-spacing: 1
+  key-spacing: 
+    mode: "minimum"
   keyword-spacing: 1
   line-comment-position: 2
   linebreak-style: 1
