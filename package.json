@@ -12,7 +12,7 @@
   "author": "kejun",
   "license": "ISC",
   "devDependencies": {
-    "babel-eslint": "^8.0.0",
+    "babel-eslint": "^8.2.1",
     "eslint-plugin-react": "^7.3.0"
   }
 }
