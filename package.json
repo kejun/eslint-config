@@ -1,13 +1,10 @@
 {
-  "name": "eslint-config-douban-style",
+  "name": "eslint-config-kejun-style",
   "version": "1.0.0",
   "main": "index.yaml",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.intra.douban.com/kejun/eslint-config.git"
+    "url": "https://github.com/kejun/eslint-config.git"
   },
   "author": "kejun",
   "license": "ISC",

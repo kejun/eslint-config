@@ -1,7 +1,7 @@
-# eslint-config-douban-style
+# eslint-config-kejun-style
 
 ```
-  npm i --save-dev git+https://github.intra.douban.com/kejun/eslint-config.git babel-eslint eslint-plugin-react
+  npm i --save-dev git+https://github.com/kejun/eslint-config.git babel-eslint eslint-plugin-react
 ```
 
 .eslintrc.yaml:
@@ -9,5 +9,5 @@
 ```
 ---
 extends:
-  - douban-style
+  - kejun-style
 ```
