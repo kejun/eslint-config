@@ -5,6 +5,7 @@ rules:
     - all
     - conditionalAssign: false
       nestedBinaryExpressions: false
+      enforceForArrowConditionals: false
       ignoreJSX: all
   no-console: 2
   no-await-in-loop: 1
