@@ -113,7 +113,7 @@ rules:
     - ignoreChainWithDepth: 4
   no-array-constructor: 1
   no-bitwise: 2
-  no-continue: 2
+  no-continue: 0
   no-inline-comments: 0
   no-lonely-if: 1
   no-mixed-operators:
