@@ -6,6 +6,7 @@ rules:
     - conditionalAssign: false
       nestedBinaryExpressions: false
       enforceForArrowConditionals: false
+      returnAssign: false
       ignoreJSX: all
   no-console: 2
   no-await-in-loop: 1
